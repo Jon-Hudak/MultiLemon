@@ -4,10 +4,10 @@ export default async function getGoogleSheet(){
   const sheetName = 'Sheet1';
   const query = encodeURIComponent('Select *')
   const url = `${base}&sheet=${sheetName}&tq=${query}`
-  let data;
 
   const res= await fetch ("https://sheets.googleapis.com/v4/spreadsheets/1-RR3pWpOHat8ZAAW5bn8RiYTXom68gLXDROmam-HWYk/values/Sheet1?alt=json&key=AIzaSyBMbhPAB3AaaL04Z5meVASc3Q-5G_cyRk0");
+  const obj = await res.json()
   
-  return (await res.json());
+  return (obj);
 }
 
