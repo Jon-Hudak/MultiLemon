@@ -48,8 +48,8 @@ function ButtonContainer({ playerList, filter, setFilter }) {
   }
 
   return (
-    <BtnCont>
-      {Object.keys(playerList).map((playerList) => renderButtons(playerList))}
+    <BtnCont id="buttonCont">
+      {playerList.map((playerList) => renderButtons(playerList))}
     </BtnCont>
   );
 }

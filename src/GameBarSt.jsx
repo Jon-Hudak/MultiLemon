@@ -11,14 +11,19 @@ export const GameBarSt = styled.li`
   margin:5px;
   color: black;
   font-weight: bold;
-  height: 60px;  
+  height: 70px;  
   flex-grow: 1;
   overflow: hidden;
   flex-basis: 40%;
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  max-width:450px;
+  
+  
+
+  @media (max-width:780px){
+    flex-basis:100%;
+  }
   
   
   
