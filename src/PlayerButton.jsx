@@ -19,8 +19,25 @@ box-shadow: inset 1px 1px 7px #5c5c5c,
             inset -1px -1px 7px #636363;
 }
 @media (max-height:500px){
-    width:140px;
-    font-size: 12px;
+    
+    font-size: 20px;
+    height:60px;
+    flex-grow:1;
+}
+@media (max-width:1130px){
+    
+    
+    /* font-size:12px; */
+    
+}
+@media (min-height:501px){
+    @media (max-width:980px){
+        
+        
+        font-size:25px;
+        height:100px;
+        width:90%;
+    }
 }
 `
 
