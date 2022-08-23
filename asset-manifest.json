@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MultiLemon/static/css/main.c15db3ca.css",
+    "main.js": "/MultiLemon/static/js/main.1376b62e.js",
+    "static/js/787.6ecc953a.chunk.js": "/MultiLemon/static/js/787.6ecc953a.chunk.js",
+    "index.html": "/MultiLemon/index.html",
+    "main.c15db3ca.css.map": "/MultiLemon/static/css/main.c15db3ca.css.map",
+    "main.1376b62e.js.map": "/MultiLemon/static/js/main.1376b62e.js.map",
+    "787.6ecc953a.chunk.js.map": "/MultiLemon/static/js/787.6ecc953a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c15db3ca.css",
+    "static/js/main.1376b62e.js"
+  ]
+}
