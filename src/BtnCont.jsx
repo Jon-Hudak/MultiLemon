@@ -4,6 +4,7 @@ export const BtnCont = styled.div`
     background-color: black;
     position:sticky;
     top:10px;
+    margin-top:1rem;
     height:100vh;
     //flex-grow:1;
     min-width:250px;
@@ -16,6 +17,7 @@ export const BtnCont = styled.div`
 
     @media (max-height:700px){
         top:0px;
+        margin-top: 0rem;
         flex-direction:row;
         height:160px;
         max-width:100%;
