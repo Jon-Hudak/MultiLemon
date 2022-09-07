@@ -26,12 +26,14 @@ function ButtonContainer({ playerList, filter, setFilter }) {
         onClick={(e) => handleClick(e.target.value, filter)}
         value={player}
         key={player}
+        role="checkbox"
       >
         
         <BtnBox
           onClick={(e) => handleClick(e.target.value, filter)}
           inputColor={buttonToggle}
           className={`${buttonToggle} btnBox`}
+          aria-hidden
         >
           ■
         </BtnBox>
