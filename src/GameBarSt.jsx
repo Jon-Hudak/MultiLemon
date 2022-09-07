@@ -21,9 +21,9 @@ export const GameBarSt = styled.li`
   
   
 
-  @media (max-width:780px){
+  /* @media (max-width:780px){
     flex-basis:100%;
-  }
+  } */
   
   
   

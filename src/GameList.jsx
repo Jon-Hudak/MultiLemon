@@ -10,7 +10,7 @@ export const GameList=styled.ul`
     flex-grow:3;
     align-content:flex-start;
 
-    @media (max-height:500px){
+    @media (max-height:700px){
        flex-grow:0;
        max-width:100%;
     }

@@ -10,7 +10,7 @@ export const AppCont=styled.div`
     
     
     
-    @media (max-height:500px){
+    @media (max-height:700px){
         flex-wrap:wrap;
         
     }
