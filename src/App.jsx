@@ -54,8 +54,11 @@ export default function App() {
           }
         }
       }
-              
-      return <GameBarSt key={value[TITLE_INDEX]}>{value[TITLE_INDEX]}</GameBarSt>;
+      let borderColor="black";
+      if (value[FREE_INDEX]){
+        borderColor="darkorange";        
+      }        
+      return <GameBarSt borderColor={borderColor} key={value[TITLE_INDEX]}>{value[TITLE_INDEX]}</GameBarSt>;
 
       
     }

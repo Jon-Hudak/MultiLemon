@@ -8,4 +8,4 @@ function GameBar( { children }) {
   )
 }
 
-export default GameBar
+export default GameBar;

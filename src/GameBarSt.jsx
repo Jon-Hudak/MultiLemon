@@ -4,6 +4,8 @@ export const GameBarSt = styled.li`
 @media (max-width: 940px) {
   font-size:15px;  
 }
+  border: 0.2rem solid;
+  border-color: ${props=>props.borderColor || 'black'};
   display:flex;
   padding:0px 20px;
   font-size: 25px;
