@@ -43,10 +43,11 @@ function ButtonContainer({ playerList, filter, setFilter }) {
   }
 
   function handleClick(e, filtered) {
-    filtered[e] = !filtered[e];
-    console.log(filtered[e]);
+    const toggle=!filtered[e];
+    
+    console.log(e,toggle);
 
-    setFilter((old) => ({ ...old, filtered }));
+    setFilter((old) => ({ ...old, [e]:toggle}));
   }
 
   return (
