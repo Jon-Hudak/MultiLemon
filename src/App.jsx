@@ -39,15 +39,17 @@ export default function App() {
    
     
   },[])
-  console.log(games)
+  //console.log(games)
   
   
 
   function renderGameList(value, filter) {
     if (value[TITLE_INDEX] !== "Title") {
       for (const p in filter) {
-        if (filter[p] === true) {
-          if (!value.includes(p)) {
+        let regEx = new RegExp(`\\b${p}\\b`,"i") // "/" needs escaped in string literal. Translates to /\b${p}\b/
+        console.log(value[TITLE_INDEX], p);
+        if (filter[p] === true ) {
+          if (!value.some(x=>regEx.test(x))) {
             return null;
           }
         }
